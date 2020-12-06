@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title>10B harkka</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="styletable.css">
+	</head>
+	<body>
+		<table>
+			<caption>Taulukkoesimerkki</caption>
+			<tr>
+				<th>Otsikko1</th>
+				<th>Otsikko2</th>
+				<th>Otsikko3</th>
+				<th>Otsikko4</th>
+			</tr>
+			<tr>
+				<td>Solu1</td>
+				<td>Solu2</td>
+				<td>Solu3</td>
+				<td>Solu4</td>
+			</tr>
+			<tr>
+				<td colspan="2">Solu1 + Solu2</td>
+				<td>Solu3</td>
+				<td>Solu4</td>
+			</tr>
+			<tr>
+				<td>Solu1</td>
+				<td>Solu2</td>
+				<td>Solu3</td>
+				<td rowspan="2">2 * Solu4</td>
+			</tr>
+			<tr>
+				<td>Solu1</td>
+				<td>Solu2</td>
+				<td>Solu3</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Henkilötiedot</legend>
+				<label>Etunimi:</label>
+				<input type="text" id="etunimi" name="etunimi" placeholder="Syötä etunimesi" required>
+				<br><br>
+				<label>Sukunimi:</label>
+				<input type="text" id="sukunimi" name="sukunimi" placeholder="Syötä sukunimesi" required>
+				<br><br>
+				<label>Sähköposti:</label>
+				<input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" required>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Lisätiedot</legend>
+				<label for="owntextarea">Tekstialue (80x4) :</label><br>
+				<textarea id="owntextarea" name="owntextarea" rows="4" cols="80"></textarea>
+				<br>
+				<label for="lisatietoja">Haluan lisätietoja:</label>
+				<input type="checkbox" id="lisatietoja" name="lisatietoja">
+				<br>
+				<label for="varit">Värit</label><br>
+				<select id="varit" name="varit">
+					<option value="red">Punainen</option>
+					<option value="green">Vihreä</option>
+					<option value="blue">Sininen</option>
+				</select>
+			</fieldset>
+			<br>
+			<input type="submit" value="Lisää uusi käyttäjä">
+		</form>
+	</body>
+</html>
