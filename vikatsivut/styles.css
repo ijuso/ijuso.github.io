@@ -1,0 +1,94 @@
+.footerjutut {
+    padding-top: 20px;
+    padding-bottom:60px;
+    margin-top: 40px;
+    color: black; 
+	background-color: #dddddd;opacity:0.9;
+}
+
+.uno {
+	list-style:none;
+	text-align:left;
+}
+.header {
+	padding: 150px;
+	margin-top:50px;
+}
+
+/* estää sivuttais scrollin */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+	background-image: url('kuvat/wp.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.kontent {
+	background-color: #dddddd;opacity:0.8;
+}
+
+.kontent2 {
+	padding-top: 20px;
+    padding-bottom:160px;
+    margin-top: 140px;
+    color: black; 
+	background-color: #dddddd;opacity:0.9;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.otsake {
+	color:white;
+	text-align: center;
+	font-size: 42px;
+	text-shadow: 2px 2px black;
+}
+
+.jumbotron {
+	background-color: #dddddd;opacity:0.8;
+}
+
+.row12 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column12 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column12 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border:2px solid white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column12 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column12 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
