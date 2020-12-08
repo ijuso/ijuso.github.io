@@ -1,0 +1,26 @@
+.kylla {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px;
+}
+
+.juu {
+	text-shadow: 2px 2px #ff0000;
+}
+
+.eli {
+	background-image:url('cat.jpg');
+	background-size: cover;
+}
+
+a:hover {
+  background-color: red;
+  transition: all 0.2s linear;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: black;
+	color:white;
+  }
+}
